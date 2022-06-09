@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">KobiFit</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="email">Email</string>
+    <string name="set_password">Ustaw hasło</string>
+    <string name="confirm_password">Potwierdź hasło</string>
+    <string name="utworz_konto">Utwórz konto</string>
+    <string name="name">Nazwa</string>
+    <string name="rejestracja">Rejestracja</string>
+    <string name="kobifit">KobiFit</string>
+    <string name="password">Hasło</string>
+    <string name="witaj">Witaj</string>
+    <string name="zaloguj">Zaloguj</string>
+    <string name="zal_google">Zaloguj za pomocą konta Google</string>
+    <string name="zapomniales_hasla">Zapomniałeś hasła?</string>
+    <string name="lub">LUB</string>
+    <string name="nie_masz_konta">Nie masz konta?</string>
+    <string name="zarejestruj_sie">Zarejestruj się!</string>
+    <string name="masz_juz_konto">Masz już konto?</string>
+    <string name="zaloguj_sie">Zaloguj się!</string>
+    <string name="reset_hasla">Reset hasła</string>
+    <string name="zresetuj_haslo">Zresetuj Hasło</string>
+    <string name="plany_treningowe">Plany treningowe</string>
+</resources>

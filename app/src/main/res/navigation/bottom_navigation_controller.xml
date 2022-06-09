@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation_controller"
+    app:startDestination="@id/fragmentHome">
+
+    <fragment
+        android:id="@+id/fragmentPlan"
+        android:name="com.example.kobifit.TrainingPlan"
+        android:label="fragment_training_plan"
+        tools:layout="@layout/fragment_training_plan" />
+    <fragment
+        android:id="@+id/fragmentStatistics"
+        android:name="com.example.kobifit.Statistics"
+        android:label="fragment_statistics"
+        tools:layout="@layout/fragment_statistics" />
+    <fragment
+        android:id="@+id/fragmentMenu"
+        android:name="com.example.kobifit.Menu"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" />
+    <fragment
+        android:id="@+id/fragmentHome"
+        android:name="com.example.kobifit.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/fragmentRun"
+        android:name="com.example.kobifit.run"
+        android:label="fragment_run"
+        tools:layout="@layout/fragment_run" />
+</navigation>

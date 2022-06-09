@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fragmentRun"
+        android:title="Biegaj"
+        android:icon="@drawable/bottom_menu_icon_run"/>
+    <item
+        android:id="@+id/fragmentPlan"
+        android:title="Plan"
+        android:icon="@drawable/bottom_menu_icon_planning"/>
+    <item
+        android:id="@+id/fragmentHome"
+        android:title="Główna"
+        android:icon="@drawable/bottom_menu_icon_home"/>
+    <item
+        android:id="@+id/fragmentStatistics"
+        android:title="Statystyki"
+        android:icon="@drawable/bottom_menu_icon_statistics" />
+    <item
+        android:id="@+id/fragmentMenu"
+        android:title="Menu"
+        android:icon="@drawable/bottom_menu_icon_menu"/>
+
+</menu>
