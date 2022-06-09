@@ -6,11 +6,4 @@
     android:background="@drawable/all_background_theme"
     tools:context=".run">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="run"  />
-
 </FrameLayout>
