@@ -18,6 +18,7 @@
         android:layout_centerHorizontal="true"
         android:text="Którą partię chcesz dzisiaj rozwijać"
         android:textColor="@color/white"
+        android:layout_marginTop="-5dp"
         android:textSize="20sp">
 
     </TextView>
@@ -25,7 +26,7 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/title"
+        android:layout_below="@+id/title"
         android:columnCount="2"
         android:rowCount="3">
 
@@ -99,7 +100,9 @@
                     android:layout_height="wrap_content"
                     android:text="Plecy"
                     android:textAlignment="center"
-                    android:textColor="@color/black"></TextView>
+                    android:textColor="@color/black">
+
+                </TextView>
 
             </LinearLayout>
 
@@ -127,7 +130,9 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:src="@drawable/home_human_arm_muscles"></ImageView>
+                    android:src="@drawable/home_human_arm_muscles">
+
+                </ImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -164,14 +169,18 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:src="@drawable/home_human_shoulder_muscles"></ImageView>
+                    android:src="@drawable/home_human_shoulder_muscles">
+
+                </ImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Ramiona"
                     android:textAlignment="center"
-                    android:textColor="@color/black"></TextView>
+                    android:textColor="@color/black">
+
+                </TextView>
 
             </LinearLayout>
 
@@ -208,7 +217,9 @@
                     android:layout_height="wrap_content"
                     android:text="Nogi"
                     android:textAlignment="center"
-                    android:textColor="@color/black"></TextView>
+                    android:textColor="@color/black">
+
+                </TextView>
 
             </LinearLayout>
 
@@ -236,14 +247,18 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:src="@drawable/home_human_stomach_muscles"></ImageView>
+                    android:src="@drawable/home_human_stomach_muscles">
+
+                </ImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Mięśnie brzucha"
                     android:textAlignment="center"
-                    android:textColor="@color/black"></TextView>
+                    android:textColor="@color/black">
+
+                </TextView>
 
             </LinearLayout>
 
