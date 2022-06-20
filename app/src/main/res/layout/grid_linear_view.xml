@@ -24,19 +24,19 @@
 
     <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_below="@id/title"
-        android:columnCount="2"
-        android:rowCount="3">
+        android:rowCount="3"
+        android:columnCount="2">
 
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="0"
-            android:layout_rowWeight="1"
             android:layout_column="0"
-            android:layout_columnWeight="1"
             android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:layout_margin="10dp"
             app1:cardCornerRadius="20dp"
             app1:cardElevation="8dp">
@@ -44,15 +44,14 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical|center_horizontal"
+                android:orientation="vertical"
                 android:gravity="center"
-                android:orientation="vertical">
+                android:layout_gravity="center_vertical|center_horizontal">
 
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:src="@drawable/home_human_chest_muscles">
-
                 </ImageView>
 
                 <TextView
@@ -61,7 +60,6 @@
                     android:text="Klatka piersiowa"
                     android:textAlignment="center"
                     android:textColor="@color/black">
-
                 </TextView>
 
             </LinearLayout>
@@ -72,10 +70,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="0"
-            android:layout_rowWeight="1"
             android:layout_column="1"
-            android:layout_columnWeight="1"
             android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:layout_margin="10dp"
             app1:cardCornerRadius="20dp"
             app1:cardElevation="8dp">
@@ -83,59 +81,22 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical|center_horizontal"
+                android:orientation="vertical"
                 android:gravity="center"
-                android:orientation="vertical">
+                android:layout_gravity="center_vertical|center_horizontal">
 
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:src="@drawable/home_human_back_muscles">
-
                 </ImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Plecy"
-                    android:textAlignment="center"
-                    android:textColor="@color/black"></TextView>
-
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_row="1"
-            android:layout_rowWeight="1"
-            android:layout_column="0"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill"
-            android:layout_margin="10dp"
-            app1:cardCornerRadius="20dp"
-            app:cardElevation="8dp">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical|center_horizontal"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:src="@drawable/home_human_arm_muscles"></ImageView>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Ręce"
+                    android:text="Mięśnie brzucha"
                     android:textAlignment="center"
                     android:textColor="@color/black">
-
                 </TextView>
 
             </LinearLayout>
@@ -146,10 +107,47 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="1"
-            android:layout_rowWeight="1"
-            android:layout_column="1"
-            android:layout_columnWeight="1"
+            android:layout_column="0"
             android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            app1:cardCornerRadius="20dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_gravity="center_vertical|center_horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/home_human_arm_muscles">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ręce"
+                    android:textAlignment="center"
+                    android:textColor="@color/black">
+                </TextView>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:layout_margin="10dp"
             app1:cardCornerRadius="20dp"
             app1:cardElevation="8dp">
@@ -157,21 +155,23 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical|center_horizontal"
+                android:orientation="vertical"
                 android:gravity="center"
-                android:orientation="vertical">
+                android:layout_gravity="center_vertical|center_horizontal">
 
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:src="@drawable/home_human_shoulder_muscles"></ImageView>
+                    android:src="@drawable/home_human_shoulder_muscles">
+                </ImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Ramiona"
                     android:textAlignment="center"
-                    android:textColor="@color/black"></TextView>
+                    android:textColor="@color/black">
+                </TextView>
 
             </LinearLayout>
 
@@ -181,10 +181,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="2"
-            android:layout_rowWeight="1"
             android:layout_column="0"
-            android:layout_columnWeight="1"
             android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:layout_margin="10dp"
             app1:cardCornerRadius="30dp"
             app1:cardElevation="8dp">
@@ -192,15 +192,14 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical|center_horizontal"
+                android:orientation="vertical"
                 android:gravity="center"
-                android:orientation="vertical">
+                android:layout_gravity="center_vertical|center_horizontal">
 
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:src="@drawable/home_human_leg_muscles">
-
                 </ImageView>
 
                 <TextView
@@ -208,7 +207,8 @@
                     android:layout_height="wrap_content"
                     android:text="Nogi"
                     android:textAlignment="center"
-                    android:textColor="@color/black"></TextView>
+                    android:textColor="@color/black">
+                </TextView>
 
             </LinearLayout>
 
@@ -218,10 +218,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="2"
-            android:layout_rowWeight="1"
             android:layout_column="1"
-            android:layout_columnWeight="1"
             android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:layout_margin="10dp"
             app1:cardCornerRadius="20dp"
             app1:cardElevation="8dp">
@@ -229,28 +229,32 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical|center_horizontal"
+                android:orientation="vertical"
                 android:gravity="center"
-                android:orientation="vertical">
+                android:layout_gravity="center_vertical|center_horizontal">
 
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="150dp"
-                    android:src="@drawable/home_human_stomach_muscles"></ImageView>
+                    android:src="@drawable/home_human_stomach_muscles">
+                </ImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Mięśnie brzucha"
                     android:textAlignment="center"
-                    android:textColor="@color/black"></TextView>
+                    android:textColor="@color/black">
+                </TextView>
 
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
 
+
     </GridLayout>
+
 
 
 </RelativeLayout>

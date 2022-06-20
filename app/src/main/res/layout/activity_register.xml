@@ -13,7 +13,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="150dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="150dp"
         android:alpha="0.7"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,7 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="100dp"
         android:fontFamily="@font/berkshire_swash"
         android:text="@string/kobifit"
@@ -42,7 +42,7 @@
         android:id="@+id/textLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/aldrich"
         android:text="@string/rejestracja"
         android:textColor="#E3DDDD"
@@ -56,7 +56,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="25dp"
         android:background="@drawable/login_frames"
         android:drawableStart="@drawable/login_icon_person"
@@ -140,7 +140,7 @@
         android:layout_width="180dp"
         android:layout_height="50dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="50dp"
         android:background="@drawable/login_button"
         android:text="@string/utworz_konto"
@@ -155,7 +155,7 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:gravity="center"
         android:orientation="horizontal"
         android:textAlignment="center"
@@ -178,11 +178,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
+            android:background="?attr/selectableItemBackground"
             android:text="@string/zaloguj_sie"
             android:textColor="#d90429"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:background="?attr/selectableItemBackground"/>
+            android:textStyle="bold" />
 
     </LinearLayout>
 
