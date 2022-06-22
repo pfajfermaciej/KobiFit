@@ -1,23 +1,17 @@
 package com.example.kobifit
 
+import android.content.Context
 import android.view.View
 import android.view.ViewGroup
-import android.widget.BaseAdapter
+import android.widget.ArrayAdapter
 
-class TrainingListAdapter: BaseAdapter() {
-    override fun getCount(): Int {
-        TODO("Not yet implemented")
-    }
 
-    override fun getItem(p0: Int): Any {
-        TODO("Not yet implemented")
-    }
+class TrainingListAdapter(context: Context, resource: Int, objects: MutableList<TrainingList>) :
+    ArrayAdapter<TrainingList>(context, resource, objects) {
 
-    override fun getItemId(p0: Int): Long {
-        TODO("Not yet implemented")
-    }
+        private lateinit var ct : Context
+        private lateinit var Lista : ArrayAdapter<TrainingList>
 
-    override fun getView(p0: Int, p1: View?, p2: ViewGroup?): View {
-        TODO("Not yet implemented")
-    }
+
 }
+
