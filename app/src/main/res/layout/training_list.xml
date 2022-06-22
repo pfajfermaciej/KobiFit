@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/all_background_theme">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginLeft="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.9"
+                    android:src="@drawable/training_custom_list_view_frame"
+                    app:tint="#E1DBDB">
+
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/training_custom_list_view_frame">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/customTrainingText"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingBottom="5dp"
+                        android:text="Plecy + barki"
+                        android:textSize="24sp">
+
+                    </TextView>
+
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="12dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/training_custom_list_view_frame">
+
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginBottom="4dp"
+                    android:src="@drawable/training_custom_list_view_frame">
+
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.9"
+                    android:padding="12dp"
+                    android:src="@drawable/training_list_edit">
+
+                </ImageView>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+</RelativeLayout>

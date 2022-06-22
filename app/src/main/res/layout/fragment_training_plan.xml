@@ -49,93 +49,108 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgLogo"/>
 
-    <ScrollView
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textPlanyTreningowe">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp">
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="80dp">
 
-            <RelativeLayout
+            <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:layout_marginRight="80dp"
-                android:layout_marginLeft="10dp">
+                android:layout_height="match_parent"
+                android:alpha="0.9"
+                android:src="@drawable/training_custom_list_view_frame"
+                app:tint="#E1DBDB">
 
-                <ImageView
+            </ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/training_custom_list_view_frame">
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:alpha="0.9"
-                    android:src="@drawable/training_custom_list_view_frame"
-                    app:tint="#E1DBDB">
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:text="Stwórz własny trening!"
+                    android:textSize="24sp">
 
-                </ImageView>
+                </TextView>
 
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="3dp"
-                    android:layout_marginBottom="5dp"
-                    android:src="@drawable/training_custom_list_view_frame">
 
-                </ImageView>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="10dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="20dp"
-                        android:text="Stwórz własny trening!"
-                        android:gravity="center"
-                        android:paddingBottom="5dp"
-                        android:textSize="24sp"
-                        android:layout_weight="1">
-                    </TextView>
-
-                </LinearLayout>
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:layout_marginRight="12dp">
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/training_custom_list_view_frame">
-
-                </ImageView>
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="2dp"
-                    android:layout_marginBottom="4dp"
-                    android:src="@drawable/training_custom_list_view_frame">
-
-                </ImageView>
-
-            </RelativeLayout>
+            </LinearLayout>
 
         </RelativeLayout>
 
-    </ScrollView>
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/training_custom_list_view_frame">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginBottom="4dp"
+                android:src="@drawable/training_custom_list_view_frame">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.9"
+                android:padding="10dp"
+                android:src="@drawable/training_list_plus">
+
+            </ImageView>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/training_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
+
+    </ListView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
