@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KobiFit">
         <activity
+            android:name=".PompkiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChestActivity"
+            android:exported="false" />
+        <activity
             android:name=".ForgotPasswordActivity"
             android:exported="false" />
         <activity
