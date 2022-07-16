@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "314178215834",
+    "project_id": "kobifit",
+    "storage_bucket": "kobifit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314178215834:android:8d6e4777fd287314952423",
+        "android_client_info": {
+          "package_name": "com.example.kobifit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314178215834-tu8m15rh1pkdl4701hru46n52pm1kt99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzCTBvYk6IBQorWv2xSht3AU0bjvrFrBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314178215834-tu8m15rh1pkdl4701hru46n52pm1kt99.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

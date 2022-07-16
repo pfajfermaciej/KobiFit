@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/all_background_theme"
+    android:orientation="vertical"
+    tools:context=".PompkiActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Klasyczne pompki"
+            android:textColor="@color/white"
+            android:textSize="30sp">
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:videoId="AYnzmd--4eg">
+
+    </com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:text="Ilość powtórzeń"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+
+        <EditText
+            android:id="@+id/editTextNumber4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:ems="2"
+            android:gravity="center"
+            android:inputType="number"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:text="Ilość serii"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editTextNumber5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView3"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_alignEnd="@+id/textView3"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:ems="2"
+            android:gravity="center"
+            android:inputType="number"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/textView2"
+            android:layout_marginStart="-50dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/editTextNumber4"
+            android:background="@drawable/training_custom_list_view_frame"
+            android:gravity="center"
+            android:text="+"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/textView2"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="-50dp"
+            android:layout_toStartOf="@+id/editTextNumber4"
+            android:background="@drawable/training_custom_list_view_frame"
+            android:text="-"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/textView3"
+            android:layout_marginStart="-20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/editTextNumber5"
+            android:background="@drawable/training_custom_list_view_frame"
+            android:gravity="center"
+            android:text="+"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/textView3"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="-20dp"
+            android:layout_toStartOf="@+id/editTextNumber5"
+            android:background="@drawable/training_custom_list_view_frame"
+            android:text="-"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
